@@ -1,0 +1,16 @@
+# Ignore Python cache directories
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore other temporary files
+*.log
+*.tmp
+*.db
+
+# 忽略所有 .db 历史文件
+*.db.*
+*.old
